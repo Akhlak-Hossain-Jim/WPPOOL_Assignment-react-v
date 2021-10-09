@@ -37,8 +37,8 @@ const Container = styled.section`
     gap: 50px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     @media (max-width: 768px) {
+      display:grid;
       padding: 50px;
     }
     @media (max-width: 548px) {
